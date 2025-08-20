@@ -1,5 +1,5 @@
 const homelist = (req,res) => {
-    res.render('index', {title: 'Home'});
+    res.render('index', {title: 'Welcome Page'});
 };
 const locationInfo = (req,res) => {
     res.render('index', {title: 'LocationInfo'});
