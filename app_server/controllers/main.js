@@ -1,7 +1,6 @@
-/* GET homepage */
-const index = (req, res) =>{
-res.render('index', { title:'express'});
+const about = (req,res) => {
+    res.render('index', {title: 'About'});
 };
-module.exports = {
-index
+module.exports = {
+    about
 };
