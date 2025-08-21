@@ -1,7 +1,7 @@
 const { createContext } = require("react");
 
 const homelist = (req,res) => {
-    res.render('index', { title: 'sravista roll:thrity four' });
+    res.render('index', { title: 'nayana roll no :fifty nine' });
 };
 const locationInfo = (req,res) => {
     res.render('index', {title: 'LocationInfo'});
